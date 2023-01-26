@@ -3,13 +3,19 @@
     padding: 0; /*A propriedade padding define uma a distância entre o conteúdo de um elemento e suas bordas*/
     text-decoration: none;
     }
+
+
+
 .pai {
     width: 50%; /*Largura*/
     height: 500px; /*Altura*/
     background-color: red; /*Comando para inserir fundo de cor*/
+
 }
 .filho {
+
     width: 50%;
     height: 50%;
     background-color: green;
+
 }
