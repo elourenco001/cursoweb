@@ -1,0 +1,13 @@
+.pai {
+    width: 50%; /*Largura*/
+    height: 50%; /*Altura*/
+    background-color: red; /*Comando para inserir fundo de cor*/
+
+}
+.filho {
+
+    width: 50%;
+    height: 50%;
+    background-color: green;
+
+}
