@@ -8,13 +8,10 @@
 .pai {
     width: 500px;/*Largura*/
     height: 500px; /*Altura*/
-    background-color: #2eb8b8; /*usando códigos hexadecimais para cores*/
-    /*background-color: rgb(46, 184, 184) --> outra forma de publicar cores na pagina */
-    /*background-color: rgba(46, 184, 184, 0,6 ) --> fazer a tratativa da imagem como deixa ela mais transparente.*/
-
-
    /* background-image: url('https://t.ctcdn.com.br/MJFyxnOWYbXOWChcEWbT03PXkq4=/512x288/smart/filters:format(webp)/i329345.jpeg'); --> Inserir imagem na pagina via URL
    /* background-position: 50% 50%; --> ajuste da Imagem na Pagina
+
+
    /* background-repeat: no-repeat; /* Código para imagem não se repetir*/
    /* background-size: cover;
     /*background-color: red; /*Comando para inserir fundo de cor*/

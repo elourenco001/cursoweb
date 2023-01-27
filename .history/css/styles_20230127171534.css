@@ -1,0 +1,33 @@
+*   {
+    margin: 0; /*A propriedade margin do CSS define a área de margem nos quatro lados do elemento.*/
+    padding: 0; /*A propriedade padding define uma a distância entre o conteúdo de um elemento e suas bordas*/
+    text-decoration: none;
+    }
+    
+.pai {
+    width: 50%; /*Largura*/
+    height: 500px; /*Altura*/
+    background-color: red; /*Comando para inserir fundo de cor*/
+    position: fixed;
+    /*padding: 10px 20px 30px 40px --> serve para em uma unica linha de código, inserir as margens da imagem dentro do bloco*/
+    
+}
+
+
+.filho {
+    width: 50;
+    height: 50%;
+    background-color: green;
+    position: fixed; /*fixar o bloco no topo da pagina*/
+    top: 0px; /* informando ao bloco a medida de distancia do topo da pagina*/
+    left: 500px; /* informando ao bloco a distancia do lado esquerdo da pagina*/
+    /*border: 2px solid white --> modelos para bordas em volta do bloco*/
+    /*border-radius: 20px --> serve para arredondamento das bordas*/
+
+} 
+
+body{
+
+    height: 200vh; /* Habilitando scrool na pagina VERTICAL*/
+    width: 200vw; /* Habilitando scrool na pagina HORIZONTAL*/
+}
