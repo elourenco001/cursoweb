@@ -1,0 +1,59 @@
+* {
+
+    margin: 0;
+
+}
+.minhadiv {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    animation: animacao;
+    animation-duration: 10s;
+    position: absolute;
+}
+@keyframes animacao{
+
+    0%{
+        top:0
+    }
+    10%{
+        top: 20px;
+    }
+    20%{
+        top: 40px;
+    }
+    40%{
+        top: 40px;
+        left: 20px;
+    }
+    50%{
+        top: 60px;
+        left: 40px;
+
+    }
+    100%{
+        top: 140px;
+        left: 120px;
+
+    }
+}
+
+
+
+/*
+@keyframes animacao{
+
+    from{
+        border-radius: 0;
+        background: #000;
+
+    }
+    to {
+        border-radius: 50%;
+        background: red;
+
+    }
+
+
+}
+*/
