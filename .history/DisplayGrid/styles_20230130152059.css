@@ -1,0 +1,23 @@
+* {
+
+    margin: 0;
+
+}
+.minhadiv {
+    width: 1000px;
+    height: 400px;
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /*Separar pela quantidade de coluna que desejar */
+    column-gap: 10px; 
+    
+  
+}
+
+.caixa {
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    border: 2px solid red;
+
+}

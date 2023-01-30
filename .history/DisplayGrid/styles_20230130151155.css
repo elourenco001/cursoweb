@@ -1,0 +1,19 @@
+* {
+
+    margin: 0;
+
+}
+.minhadiv {
+    width: 1000px;
+    height: 400px;
+    background-color: black;
+  
+}
+
+.caixa {
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    border: 2px solid red;
+
+}
