@@ -10,10 +10,9 @@
     display: flex; /*Alinhar as caixas lado a lado*/
     /*flex-direction: column-reverse; /*Inverter a posição das caixas*/
     justify-content: space-evenly;
-    align-items: center ;
-}
+    align-items: center;
 
-.caixa {
+.caixa{
     width: 100px;
     height: 100px;
     background-color: #fff;
