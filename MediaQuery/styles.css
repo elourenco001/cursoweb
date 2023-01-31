@@ -1,0 +1,26 @@
+* {
+
+    margin: 0;
+
+}
+.minhadiv {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    
+}
+@media(min-width: 480px){
+    .minhadiv{
+        background-color: red;
+    }
+}
+@media(min-width: 768px){
+    .minhadiv{
+        background: yellow;
+    }
+}
+@media(min-width: 1280px){
+    .minhadiv{
+        background: green;
+    }
+}
